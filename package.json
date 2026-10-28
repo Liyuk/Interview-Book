@@ -11,7 +11,7 @@
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "preview": "vitepress preview docs",
-    "deploy": "zsh deploy.sh"
+    "deploy": "gh workflow run deploy.yml --ref master"
   },
   "repository": {
     "type": "git",

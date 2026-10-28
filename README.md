@@ -26,6 +26,10 @@
 
 欢迎通过 [Issues](https://github.com/Mountain-Buzhou/Interview-Book/issues) 反馈问题或提出建议，也欢迎提交 Pull Request。感谢所有[贡献者](https://github.com/Mountain-Buzhou/Interview-Book/graphs/contributors)：[@liyuk](https://github.com/Liyuk)、[@onion](https://github.com/dcy0701)、[@heaven](https://github.com/NE-SmallTown)、[@Tristan](https://github.com/Troland)、[@张庆东](https://github.com/q986171791)、[@moyu](https://github.com/moyuling)。
 
+## 部署
+
+合并到 `master` 后，GitHub Actions 会自动构建并发布文档站。需要手动部署时，可以在仓库的 Actions 页面运行 `Deploy documentation`，或在本机执行 `npm run deploy`（需要安装并登录 GitHub CLI）。
+
 ---
 ## Entry
 
