@@ -1,82 +1,30 @@
 # Interview Book
 
-> Contributors:
-[@liyuk](https://github.com/Liyuk) [@onion](https://github.com/dcy0701) [@heaven](https://github.com/NE-SmallTown) [@Tristan](https://github.com/Troland) [@张庆东](https://github.com/q986171791) [@moyu](https://github.com/moyuling)  
+> 前端面试题与工程师成长知识库：从 Web 基础、JavaScript 和框架原理，到计算机基础、工程实践与团队协作。
 
-> 更好的阅读体验：<https://mountain-buzhou.github.io/Interview-Book/>  
+[在线阅读](https://mountain-buzhou.github.io/Interview-Book/) · [Interview Compass](https://liyuk.github.io/interview-compass/) · [贡献指南](https://github.com/Mountain-Buzhou/Interview-Book/issues/14)
 
-> [**如何运行项目？如何贡献代码？**](https://github.com/Mountain-Buzhou/Interview-Book/issues/14)
+## 从这里开始
 
-## Abstract
-网络上的资源其实已经足够多了，所以在进行搜索的时候需要极大的筛选成本。为了减少这种低效的筛选，我将一些零散的知识整理在一起。
+如果你是第一次阅读，建议先到[在线站点的 Introduce 页面](https://mountain-buzhou.github.io/Interview-Book/guide/)了解内容结构，再按自己的知识盲区选择专题。这里的题目用于梳理知识与查漏补缺，理解和表达还需要结合实际项目练习。
 
-### Hortation
-希望大家能够带着成为一个优秀的软件工程师的想法，来合理的利用这份资料。  
+- **Entry**：前端知识地图与延伸阅读，适合先建立整体框架。
+- **Collection**：基础、进阶和框架相关的面试题及专题文章。
+- **Foundation**：计算机组成、操作系统、网络、算法等基础知识。
+- **Team Management**：团队管理与工程师成长相关的经验和思考。
+- **Interview Compass**：从初级工程师、资深工程师到技术管理者的问题框架，用于准备面试表达、设计面试和晋升复盘。
 
-这份资料并非单纯的前端工程师的面试题，我更希望它能够在工程师成长的道路上，起到梳理知识结构的作用。可以精通前端，但不要局限在狭义的前端，将知识面扩展到后端，了解更多基础的知识结构，才能够成为更加优秀的工程师。   
+## 目录
 
-这里面大部分的题目都是非常规的提问法，但涉及知识点都极其基础。后续我们可能会添加一些别的方向的内容，比如node、go之类的，但主要还是跟进前端的新动态。  
+- [Entry](#entry)
+- [Collection](#collection)
+  - [Basic](#basic)
+  - [Advanced](#advanced)
+  - [Framework](#framework)
+- [Team Management](#team-management)
+- [Foundation](#foundation)
 
-最后提到需要辩证地看待这种资源，它只是知识结构，而非万灵药，更多的知识还需要在工作中去实践、去学习。
-
-**“非知之难，行之惟难；非行之难，终之斯难。”——魏征**
-
-### Guidance
-`Entry`这个部分是几个前端知识库的链接，里面的内容比较浅显易懂。先看看整个结构性的题目，找到自己的知识的盲区，再去针对性学习。
-
-`Collection`来自日常的面试、闲聊和偶尔的突发奇想，主要是觉得比较有趣，所以有做一些记录和分类。我和onion讨论了下，决定把这个模块分为三个大的内容，基础、进阶、框架，以及一些我之前整理的问题（与`Entry`有所部分重复）。
-
-`Teamwork`这个部分则是关于团队管理、以及个人非技术上的一些发展相关的杂谈。
-
-`Foundation`这个部分是计算机基础的概念，包括计算机组成原理、操作系统、编译原理、计算机网络、数据结构与算法、数据库系统、软件工程。这个部分就是所谓的补基础，构建完整的计算机体系结构，是向上成长的过程中必不可少的。  
-
-**对于这种资讯类的repo来说，很少有提及基础的重要性，希望能够引起阅读者的重视**。    
-
-**欢迎大家在issue里留下自己的奇思妙想，或者直接pr。**   
-
----
-
-Table of Contents
-=================
-
-   * [Interview-Questions-Answers](#interview-questions-answers)
-      * [Abstract](#abstract)
-         * [Hortation](#hortation)
-         * [Guidance](#guidance)
-   * [Table of Contents](#table-of-contents)
-      * [Entry](#entry)
-         * [Naive](#naive)
-         * [Interesting](#interesting)
-         * [Recommend](#recommend)
-      * [Collection](#collection)
-         * [Basic](#basic)
-         * [Advanced](#advanced)
-            * [Browser](#browser)
-            * [JavaScript](#javascript)
-            * [Application](#application)
-            * [HTML](#html)
-            * [Function Program](#function-program)
-            * [HTTP](#http)
-            * [Optimization](#optimization)
-            * [Products](#products)
-            * [Whiteboard](#whiteboard)
-            * [System Design](#system-design)
-         * [Framework](#framework)
-            * [React](#react)
-            * [Vue](#vue)
-            * [AngularJS](#angularjs)
-            * [Wheel](#wheel)
-            * [Nodejs](#nodejs)
-            * [Future](#future)
-      * [Team Management](#team-management)
-         * [Management](#management)
-         * [Growing](#growing)
-      * [Foundation](#foundation)
-         * [Operating System](#operating-system)
-         * [Computer Organization](#computer-organization)
-         * [Network](#network)
-         * [Algorithm](#algorithm)
-         * [Compliers](#compliers)
+欢迎通过 [Issues](https://github.com/Mountain-Buzhou/Interview-Book/issues) 反馈问题或提出建议，也欢迎提交 Pull Request。感谢所有[贡献者](https://github.com/Mountain-Buzhou/Interview-Book/graphs/contributors)：[@liyuk](https://github.com/Liyuk)、[@onion](https://github.com/dcy0701)、[@heaven](https://github.com/NE-SmallTown)、[@Tristan](https://github.com/Troland)、[@张庆东](https://github.com/q986171791)、[@moyu](https://github.com/moyuling)。
 
 ---
 ## Entry
@@ -104,7 +52,7 @@ Table of Contents
 >[冴羽的博客](https://github.com/mqyqingfeng/Blog)   
 
 《前端要给力之系列》是一系列非常有趣的文章，同时讲的非常深入
->[前端要给力之系列](/Entry/Geili.md)
+>[前端要给力之系列](docs/Collection/Geili.md)
 
 如果你喜欢看一些函数式编程、编译原理之类的东西，那么可以看看何幻大神的知乎专栏进行一些~~初步~~深入的学习。
 >[业余程序员的个人修养](https://zhuanlan.zhihu.com/self-discipline)
@@ -185,8 +133,8 @@ Table of Contents
 #### Browser
 
 - [打开一个网页经历了那些过程？](http://web.jobbole.com/94150/)
-- [浏览器加载白屏是什么原因？](/docs/Collection/WhiteScreen.md)
-- [千万访问量的项目，前端需要注意些什么？](/docs/Collection/DozensOfVisits.md)
+- [浏览器加载白屏是什么原因？](docs/Collection/WhiteScreen.md)
+- [千万访问量的项目，前端需要注意些什么？](docs/Collection/DozensOfVisits.md)
 
 #### JavaScript
 这一章我们尽量带来较深层的JavaScript语言层次的问题，我们会拿出几个JavaScript较深入的点来讲。
@@ -204,7 +152,7 @@ Table of Contents
 #### Application
 这里将JavaScript除去基本语言特性之外的东西整理出来，主要是JavaScript在工程上的应用场景，以及一些原理性问题。
 
-- [继承（重点）](/docs/Collection/Inherit.md)
+- [继承（重点）](docs/Collection/Inherit.md)
 - [异步（重点）](https://blog.risingstack.com/writing-a-javascript-framework-execution-timing-beyond-settimeout/ )
 - [new操作符做了什么](http://blog.csdn.net/aimingoo/article/details/6105048)
 - [JavaScript 内存管理](https://github.com/Troland/how-javascript-works/blob/master/memory-management.md)
@@ -226,8 +174,8 @@ Table of Contents
 - web worker适合哪些场景
 
 #### Function Program
-- [闭包（重点）](/docs/Collection/Clojure.md)
-- [柯里化（Currying）](/docs/Collection/Currying.md)
+- [闭包（重点）](docs/Collection/Clojure.md)
+- [柯里化（Currying）](docs/Collection/Currying.md)
 
 #### HTTP
 - http1.0和http1.1的区别
@@ -285,7 +233,7 @@ Table of Contents
 - parseQuery
 - flatten
 - [乱序算法（Fisher–Yates）](https://github.com/Mountain-Buzhou/Interview-Book/issues/1)
-- [模版引擎](/docs/Collection/Template.md)
+- [模版引擎](docs/Collection/Template.md)
 - 反转二叉树
 - 将两个有序数组合并成为一个有序数组
 - 全选和单行选中的联动
@@ -295,7 +243,7 @@ Table of Contents
 - currying
 - 一个无重复元素的数组，求所有两数之和为k的组合
 - 变体题：一个无重复元素的数组，求元素和（元素个数小于n）为k的组合
-- [实现events(发布订阅/观察者模式)](/docs/Collection/Events.md)
+- [实现events(发布订阅/观察者模式)](docs/Collection/Events.md)
 - 找出数组中最大的两数之差
 - 棋盘最短路：动态规划、搜索+剪枝、时间优化、空间优化
 - [二叉树遍历：前序、后序、中序，时间复杂度，空间复杂度O(1)，递归非递归](https://github.com/MrTreasure/Algorithm/blob/master/src/Tree/BinaryTree.ts)

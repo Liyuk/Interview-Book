@@ -23,7 +23,7 @@
 >[冴羽的博客](https://github.com/mqyqingfeng/Blog)   
 
 《前端要给力之系列》是一系列非常有趣的文章，同时讲的非常深入
->[前端要给力之系列](/collection/Geili.md)
+>[前端要给力之系列](/Collection/Geili.md)
 
 如果你喜欢看一些函数式编程、编译原理之类的东西，那么可以看看何幻大神的知乎专栏进行一些~~初步~~深入的学习。
 >[业余程序员的个人修养](https://zhuanlan.zhihu.com/self-discipline)
@@ -37,5 +37,4 @@
 我极力推崇这样的知识梳理的repo，在这个repo中扩展了我在本文最后提到的书本中的知识点。  
 如果你希望加强基础的学习，或者在往后端进行技术拓展，这本书可以作为大纲梳理。  
 
->[面试白皮书](https://github.com/CyC2018/Interview-Notebook)  
-
+>[面试白皮书](https://github.com/CyC2018/Interview-Notebook)
