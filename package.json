@@ -2,16 +2,20 @@
   "name": "interview-book",
   "version": "1.0.0",
   "description": "interview book",
-  "main": "index.js",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
     "deploy": "zsh deploy.sh"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Liyuk/Interview-Questions-Answers.git"
+    "url": "git+https://github.com/Mountain-Buzhou/Interview-Book.git"
   },
   "keywords": [
     "interview",
@@ -21,10 +25,14 @@
   "author": "liyuk",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Liyuk/Interview-Questions-Answers/issues"
+    "url": "https://github.com/Mountain-Buzhou/Interview-Book/issues"
   },
-  "homepage": "https://github.com/Liyuk/Interview-Questions-Answers#readme",
+  "homepage": "https://github.com/Mountain-Buzhou/Interview-Book#readme",
   "devDependencies": {
-    "vuepress": "^0.8.4"
+    "vitepress": "1.6.4"
+  },
+  "overrides": {
+    "vite": "6.4.5",
+    "esbuild": "0.25.12"
   }
 }

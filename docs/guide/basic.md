@@ -1,10 +1,10 @@
 # Basic
 
 ## HTML
-- [html5新标签有哪些](/collection/NewHtmlTag.md)
+- [html5新标签有哪些](/Collection/NewHtmlTag.md)
 - canvas、svg、webGL
-- [你是如何理解 HTML 语义化的，有什么好处](/collection/semantization.md)
-- [前端需要注意哪些SEO?](/collection/SEO.md)
+- [你是如何理解 HTML 语义化的，有什么好处](/Collection/semantization.md)
+- [前端需要注意哪些SEO?](/Collection/SEO.md)
 - manifest、worker、socket
 - input和textarea的区别
 - 用一个div模拟textarea的实现
@@ -21,11 +21,11 @@
 - flex布局、 grid布局、table布局
 - css以及中轴旋转、动画变换
 - 绘制三角形、矩形、菱形、梯形（奇巧淫技，可以不问）
-- [sprite图（雪碧图）知道吗？svg雪碧图了解吗？](/collection/sprite.md)
+- [sprite图（雪碧图）知道吗？svg雪碧图了解吗？](/Collection/sprite.md)
 - px、em、rem、vw、vh？rem的根节点样式在什么时候设置？
 - position有哪些？他们的定位原点是什么？
 - 媒体查询用css好还是用js好？
-- [link和@import的区别？](/collection/LinkAndImport.md)
+- [link和@import的区别？](/Collection/LinkAndImport.md)
 - 响应式布局的原理
 - css低版本浏览器兼容问题，额外需要什么后缀来声明浏览器兼容
 - !important意义，是否应当规避使用？

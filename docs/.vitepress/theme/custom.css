@@ -1,0 +1,98 @@
+.compass-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 3rem;
+  padding: 2rem 2.25rem;
+  border: 1px solid var(--vp-c-brand-1);
+  border-radius: 16px;
+  background: linear-gradient(120deg, var(--vp-c-brand-soft), var(--vp-c-bg-soft));
+}
+
+.compass-banner__content {
+  max-width: 48rem;
+}
+
+.compass-banner__eyebrow {
+  color: var(--vp-c-brand-1);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+.compass-banner h2 {
+  margin: 0.5rem 0;
+  border: 0;
+  font-size: 1.35rem;
+  letter-spacing: -0.02em;
+}
+
+.compass-banner p {
+  margin: 0;
+  color: var(--vp-c-text-2);
+  line-height: 1.7;
+}
+
+.compass-banner__link {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1rem;
+  border-radius: 999px;
+  background: var(--vp-c-brand-1);
+  color: var(--vp-c-white);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.compass-banner__link:hover {
+  background: var(--vp-c-brand-2);
+  color: var(--vp-c-white);
+}
+
+.github-stars {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-left: 1rem;
+  padding: 0.4rem 0.65rem;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 999px;
+  color: var(--vp-c-text-1);
+  font-size: 0.82rem;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.github-stars:hover {
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1);
+}
+
+.github-stars svg {
+  width: 0.9rem;
+  height: 0.9rem;
+  fill: currentColor;
+}
+
+.github-stars__count {
+  padding-left: 0.4rem;
+  border-left: 1px solid var(--vp-c-divider);
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 640px) {
+  .compass-banner {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-top: 2rem;
+    padding: 1.5rem;
+  }
+}
