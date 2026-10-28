@@ -42,7 +42,7 @@
   padding: 0.7rem 1rem;
   border-radius: 999px;
   background: var(--vp-c-brand-1);
-  color: var(--vp-c-white);
+  color: var(--vp-c-white) !important;
   font-size: 0.9rem;
   font-weight: 600;
   text-decoration: none;
@@ -51,7 +51,12 @@
 
 .compass-banner__link:hover {
   background: var(--vp-c-brand-2);
-  color: var(--vp-c-white);
+  color: var(--vp-c-white) !important;
+}
+
+.compass-banner__link:focus-visible {
+  outline: 2px solid var(--vp-c-brand-1);
+  outline-offset: 3px;
 }
 
 .github-stars {
